@@ -19,8 +19,7 @@ fun main(){
     person.eat(3)
     println(person.weight)
     person.speak("I love God")
-    person.bithday()
-    person.bithday()
+    person.bithday(1)
     var x =User("Ahimbisibwe","Prudence","prudeahimbisibwe@gmail.com","0784017930","pru126nce")
     println(x.firstName)
     println(x.lastName)
@@ -41,7 +40,7 @@ class Human(var name:String,var age:Int,var weight:Int) {
 
     }
 
-    fun bithday() {
+    fun bithday(increment:Int) {
         age++
         println(age)
 
